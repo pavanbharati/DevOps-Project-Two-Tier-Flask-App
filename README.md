@@ -265,17 +265,7 @@ pipeline {
         }
     }
 }
-```
-
----
-
-### **7. Step 5: Jenkins Pipeline Creation and Execution**
-
-1.  **Create a New Pipeline Job in Jenkins:**
-    * From the Jenkins dashboard, select **New Item**.
-    * Name the project, choose **Pipeline**, and click **OK**.
-
-2.  **Configure the Pipeline:**
+```\2.  **Configure the Pipeline:**
     * In the project configuration, scroll to the **Pipeline** section.
     * Set **Definition** to **Pipeline script from SCM**.
     * Choose **Git** as the SCM.
