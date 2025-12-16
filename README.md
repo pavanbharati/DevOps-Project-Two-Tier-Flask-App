@@ -247,7 +247,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 // Replace with your GitHub repository URL
-                git branch: 'main', url: 'https://github.com/pavanbharati/DevOps-Project-Two-Tier-Flask-App.git'
+                git branch: 'main', url: '[https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)'
             }
         }
         stage('Build Docker Image') {
